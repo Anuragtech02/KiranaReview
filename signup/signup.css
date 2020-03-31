@@ -1,0 +1,71 @@
+body,*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(201, 201, 186, 0.541);
+}
+#container{
+    max-width:300px;
+    width:100%;
+    margin:auto;
+    padding:40px 50px 40px 30px;
+    background-color:rgb(182, 171, 171);
+    border-radius:20px;
+    margin-top:100px;
+}
+#form_head{
+    text-align:center;
+}
+form div{
+    width:100%;
+    margin:10px;
+    padding:12px 0 8px 0;
+    font-weight:bold;
+}
+input[type=text],input[type=password]{
+    width:100%;
+    background-color:rgb(182, 171, 171);
+    border:none;
+    border-bottom:1px solid black;
+    border-radius:7px;
+    outline:none;
+    padding:5px;
+    color:black;
+    transition: all 0.3s ease;
+}
+input[type=text]:hover{
+    box-shadow:3px 3px 3px black;
+}
+input[type=password]:hover{
+    box-shadow:3px 3px 3px black;
+}
+#already_mem{
+    font-weight:lighter;
+}
+#login_link{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+#submit{
+    width:100%;
+    border-radius:30px;
+    background-color:rgba(54, 54, 221, 0.712);
+    border:none;
+    padding:10px;
+    opacity:0.8;
+    transition: all 0.15s ease;
+}
+#submit:hover{
+    background-color:rgba(35, 35, 240, 0.795);
+    box-shadow:5px 5px 5px black;
+}
+.error{
+    color:red;
+    font-size:10px;
+    font-weight:lighter;
+}
