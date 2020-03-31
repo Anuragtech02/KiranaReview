@@ -6,12 +6,8 @@
     </head>
     <body>
         <div id="container">
-            <h1 id="form_head">Sign Up</h1>
-            <form action="" method="POST" id="signup_form" onsubmit="return validate() ">
-                <div id="name_div">
-                    <input type="text" name="name" id="name" placeholder="Name" onblur="name_validation()"><br>
-                    <span class="error" id="name_error"></span>
-                </div>
+            <h1 id="form_head">Login Up</h1>
+            <form action="" method="POST" id="login_form" onsubmit="return validate() ">
                 <div id="username_div">
                     <input type="text" name="username" id="username" placeholder="Username" onblur="username_validation(3)"><br>
                     <span class="error" id="username_error"></span>
@@ -20,18 +16,14 @@
                     <input type="password" name="pass" id="pass" placeholder="Password" onkeyup="pass_validation()"><br>
                     <span class="error" id="pass_error"></span>
                 </div>
-                <div id="email_div">
-                    <input type="text" name="email" id="email" placeholder="Email" onblur="email_validation()"><br>
-                    <span class="error" id="email_error"></span>
-                </div>
-                <div id="already_mem">
-                    Already a member ? <span><a href="#" id="login_link">Login In</a></span>
+                <div id="new_mem">
+                    New Member ? Register <span><a href="#" id="signup_link" style="margin-left:10px;">Here</a></span>
                 </div>
                 <div id="submit_div">
                     <input type="submit" value="Sign up" name="submit" id="submit">
                 </div>
             </form>
         </div>
-        <script src="signup.js"></script>
+        <script src="login.js"></script>
     </body>
-</html>
+</html>    

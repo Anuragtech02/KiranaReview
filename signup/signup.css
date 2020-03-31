@@ -43,10 +43,10 @@ input[type=text]:hover{
 input[type=password]:hover{
     box-shadow:3px 3px 3px black;
 }
-#already_mem{
+#already_mem,#new_mem{
     font-weight:lighter;
 }
-#login_link{
+#login_link,#signup_link{
     text-decoration:none;
     font-weight:bold;
     color:black;
